@@ -20,4 +20,3 @@ a vector
 \description{
 \code{eval_f_eq} This function evaluates the estimate under the null constraint (later used in function Est_eqrest)
 }
-

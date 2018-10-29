@@ -19,4 +19,3 @@ the sum
 \description{
 \code{eval_f} This function is for computing the SSE while fitting the model
 }
-

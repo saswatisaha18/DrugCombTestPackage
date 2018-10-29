@@ -7,11 +7,7 @@ gr(x)}
 \usage{
 gr(x)
 }
-\arguments{
-\item{x}{the variable with respect to which the derivative is computed}
-}
 \description{
 \code{gr} function evaluating the gradient of the results from eval_f function with respect to the mean estimates
 gr(x)
 }
-

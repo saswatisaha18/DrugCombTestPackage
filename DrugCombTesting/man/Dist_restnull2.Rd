@@ -7,10 +7,6 @@
 Dist_restnull2(levelsDrugA, levelsDrugB, len, ind, indcomb, Crit)
 }
 \arguments{
-\item{levelsDrugA}{no of dose groups for Drug A (r)}
-
-\item{levelsDrugB}{no of dose groups for Drug B (s)}
-
 \item{len}{Variable contain the number of patients in each dose combination group}
 
 \item{ind}{all the drug dose combination groups (index including monotherapies and placebo control) in our study}
@@ -28,4 +24,3 @@ returns the p-value vector
 \references{
 \url{http://stackoverflow.com/a/5577647}
 }
-

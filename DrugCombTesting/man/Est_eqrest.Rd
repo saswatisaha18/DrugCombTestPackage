@@ -30,4 +30,3 @@ a vector
 \references{
 \url{http://stackoverflow.com/a/5577647}
 }
-

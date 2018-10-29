@@ -14,9 +14,8 @@ ApplyDrugComb(levelsDrugA, levelsDrugB, Y, len)
 \item{Y}{raw data}
 
 \item{len}{Variable contain the number of patients in each dose combination group}
-}
-\value{
-returns the p-value vector
+
+\item{m}{dose-response means}
 }
 \description{
 \code{ApplyDrugComb} This function evaluates the p value under the different methos
@@ -24,4 +23,3 @@ returns the p-value vector
 \references{
 \url{http://stackoverflow.com/a/5577647}
 }
-
