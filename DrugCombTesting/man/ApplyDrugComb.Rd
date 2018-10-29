@@ -15,7 +15,6 @@ ApplyDrugComb(levelsDrugA, levelsDrugB, Y, len)
 
 \item{len}{Variable contain the number of patients in each dose combination group}
 
-\item{m}{dose-response means}
 }
 \description{
 \code{ApplyDrugComb} This function evaluates the p value under the different methos
