@@ -4,7 +4,7 @@
 \alias{ApplyDrugComb}
 \title{\code{ApplyDrugComb} This function evaluates the p value under the different methos}
 \usage{
-ApplyDrugComb(levelsDrugA, levelsDrugB, Y, len, m)
+ApplyDrugComb(levelsDrugA, levelsDrugB, Y, len)
 }
 \arguments{
 \item{levelsDrugA}{no of dose groups for Drug A (r)}
@@ -14,8 +14,6 @@ ApplyDrugComb(levelsDrugA, levelsDrugB, Y, len, m)
 \item{Y}{raw data}
 
 \item{len}{Variable contain the number of patients in each dose combination group}
-
-\item{m}{dose-response means}
 }
 \value{
 returns the p-value vector
