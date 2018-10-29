@@ -245,7 +245,7 @@ ApplyDrugComb<-function(levelsDrugA,levelsDrugB,Y,len)
   ind<-expand.grid(c(0:levelsDrugA),c(0:levelsDrugB))
   indcomb<-expand.grid(c(1:levelsDrugA),c(1:levelsDrugB))
   nlev=(levelsDrugA+1)*(levelsDrugB+1)
-  m<-DrugCombtest(Y,len=ln,levelsDrugB,levelsDrugA,ind,indcomb)
+  m<-DrugCombtest(Y,len=len,levelsDrugB,levelsDrugA,ind,indcomb)
   m$LF_Null<-sapply(m$Tstat,function(i)Dist_restnull2(levelsDrugA,levelsDrugB,len,ind,indcomb,i))
   res<-do.call("cbind",m)
   
